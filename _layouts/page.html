@@ -36,6 +36,8 @@
         
       {% assign path = page.url | split: "/" %}
 
+        <a href="{{ site.url }}">Mi Pega Blog</a>
+        
       {% for path_item in path %}
         {{ path_item }} > 
       {% endfor %}
