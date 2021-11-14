@@ -34,7 +34,7 @@
       </header>
       <section>
         
-      {% assign path = page.url | split: "/" | slice: 1 %}
+      {% assign path = page.url | slice: 1 | split: "/" %}
 
         <a href="{{ site.url }}/mipegablog/">Mi Pega Blog</a>
         
