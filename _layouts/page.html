@@ -36,12 +36,12 @@ plit!d"/"ctype html>
         
       {% assign path = page.url | split: "/" %}
 
-        <a href="{{ site.url }}/mipegablog/">Mi Pega Blog</a>
+      <a href="{{ site.url }}/mipegablog/">Mi Pega Blog</a>
         
       {% for path_item in path %}
         {% if path_item != "" %}
-          {% capture subpath %}{{ subpath }}{{ path_item }}/{% endcapture %}
-          > <a href="{{ site.url }}/mipegablog/{{ subpath | replace: ".html/", "" }}">{{ path_item }}</a> 
+          {% capture subpath %}{{ subpath }}/{{ path_item | replace: ".html/", "" }}{% endcapture %}
+          / <a href="{{ site.url }}/mipegablog/{{ subpath }}">{{ path_item }}</a> 
         {% endif %}
       {% endfor %}
         
