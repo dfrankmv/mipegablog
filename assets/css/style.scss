@@ -7,6 +7,10 @@ section ul {
   padding-left: 5px;
 }
 
-section ul:not(:first-of-type) li {
+section ul li {
   list-style: none;
+}
+
+section ul li:before {
+  content: ...;
 }
