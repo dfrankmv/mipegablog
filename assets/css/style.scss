@@ -6,3 +6,7 @@
 section ul {
   padding-left: 5px;
 }
+
+section ul:not(:first-of-type) {
+  list-style: none;
+}
