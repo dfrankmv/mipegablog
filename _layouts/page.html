@@ -38,9 +38,11 @@
 
         <a href="{{ site.url }}/mipegablog/">Mi Pega Blog</a>
         
+      {% assign subpath = "" %}  
+        
       {% for path_item in path %}
-        {% assign subpath = subpath + "/" + path_item %}
-        <a href="{{ site.url }}/mipegablog/{{ subpath }}">{{ path_item }}</a> / 
+        {% subpath = subpath + "/" + path_item %}
+        <a href="{{ site.url }}/mipegablog{{ subpath }}">{{ path_item }}</a> / 
       {% endfor %}
 
       {{ content }}
