@@ -41,7 +41,7 @@
       {% for path_item in path %}
         {% assign subpath = subpath + "/" + path_item %}
         {% capture suburl %}
-          {{ site.url }}/mipegablog/{{ path_item }}
+          {{ suburl }}/{{ path_item }}
         {% endcapture %}
         <a href="{{ suburl }}">{{ path_item }}</a> > 
       {% endfor %}
