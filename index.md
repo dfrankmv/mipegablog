@@ -1,6 +1,4 @@
 Aquí iré colocando los conocimientos que voy adquiriendo sobre esta grandiosa plataforma y en español.
-
-- [User Interface](ui)
-  - [Actions](ui/actions)
-    - [Delete item](ui/actions/delete-item)
-      - [Uso básico](ui/actions/delete-item/uso-basico)
+- [Actions](actions)
+  - [Delete item](actions/delete-item)
+    - [Uso básico](actions/delete-item/uso-basico)
