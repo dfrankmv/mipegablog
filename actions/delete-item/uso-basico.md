@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Uso básico de acción "Delete item"
 ---
 
