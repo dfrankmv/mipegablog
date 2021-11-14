@@ -41,7 +41,7 @@
       {% assign subpath = "" %}  
         
       {% for path_item in path %}
-        {% subpath = subpath + "/" + path_item %}
+        {% assign subpath = subpath + "/" + path_item %}
         <a href="{{ site.url }}/mipegablog{{ subpath }}">{{ path_item }}</a> > 
       {% endfor %}
 
