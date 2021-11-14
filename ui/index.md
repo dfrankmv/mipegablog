@@ -2,7 +2,7 @@
 title: UI
 ---
 
-[Mi Pega Blog](https://github.com/dfrankmv/mipegablog) > [UI](https://github.com/dfrankmv/mipegablog/ui) > [Actions](https://www.google.com) > [Delete item](https://www.google.com) > {{ page.title }}
+[Mi Pega Blog](https://dfrankmv.github.io/mipegablog) > {{ page.title }}
 
 # UI
 
